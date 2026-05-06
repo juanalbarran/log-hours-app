@@ -6,6 +6,8 @@ in {
   env.GREET = "Java & Spring Boot Development";
   env.application_name = application_name;
 
+  dotenv.enable = true;
+
   packages = with pkgs; [
     gradle
   ];
